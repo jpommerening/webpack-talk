@@ -1,0 +1,36 @@
+- source: ./title.md
+  data:
+    bespoke-hash: webpack
+- source: ./intro.md
+  data:
+    bespoke-hash: intro
+- source: ./architecture.md
+  data:
+    bespoke-hash: architecture
+- source: ./plugins.md
+  data:
+    bespoke-hash: plugins
+- source: ./plugins-usage.md
+  data:
+    bespoke-hash: plugins-usage
+- source: ./plugins-examples.md
+  data:
+    bespoke-hash: plugins-examples
+- source: ./plugins-examples-1.md
+  data:
+    bespoke-hash: plugins-examples-1
+- source: ./loaders.md
+  data:
+    bespoke-hash: loaders
+- source: ./loaders-usage.md
+  data:
+    bespoke-hash: loaders-usage
+- source: ./loaders-examples.md
+  data:
+    bespoke-hash: loaders-examples
+- source: ./loaders-examples-1.md
+  data:
+    bespoke-hash: loaders-examples-1
+- data:
+    bespoke-hash: whoa
+    bespoke-backdrop: whoa

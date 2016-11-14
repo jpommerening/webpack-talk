@@ -1,0 +1,25 @@
+@import 'theme.scss';
+@import 'highlight.scss';
+@import url('https://fonts.googleapis.com/css?family=Averia+Sans+Libre:400,400italic');
+
+.name {
+  font-family: 'Averia Sans Libre';
+}
+
+h1.name {
+  font-style: normal;
+}
+
+img.plain {
+  border: 0;
+  max-width: 30%;
+}
+
+.bespoke-backdrop.whoa {
+  background-image: url('../media/whoa.gif');
+  background-size: cover;
+}
+
+.bespoke-slide[data-bespoke-backdrop="whoa"] {
+  color: $background;
+}
