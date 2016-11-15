@@ -30,6 +30,8 @@
 - source: ./loaders.md
   data:
     bespoke-hash: loaders
+- data:
+    bespoke-backdrop: jesse
 - source: ./loaders-usage.md
   data:
     bespoke-hash: loaders-usage

@@ -19,17 +19,23 @@ img.plain {
   height: 2em;
   width: 2em;
   position: absolute;
-  left: 24%;
-}
-
-.bespoke-backdrop.whoa {
-  background-image: url('../media/whoa.gif');
-  background-position: center;
-  background-size: cover;
+  left: 22%;
 }
 
 .bespoke-backdrop.walter {
   background-image: url('../media/walter.gif');
+  background-position: center;
+  background-size: cover;
+}
+
+.bespoke-backdrop.jesse {
+  background-image: url('../media/jesse-what.gif');
+  background-position: center;
+  background-size: cover;
+}
+
+.bespoke-backdrop.whoa {
+  background-image: url('../media/whoa.gif');
   background-position: center;
   background-size: cover;
 }
