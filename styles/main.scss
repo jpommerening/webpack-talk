@@ -15,11 +15,30 @@ img.plain {
   max-width: 30%;
 }
 
+.tool-logo {
+  height: 2em;
+  width: 2em;
+  position: absolute;
+  left: 24%;
+}
+
 .bespoke-backdrop.whoa {
   background-image: url('../media/whoa.gif');
+  background-position: center;
   background-size: cover;
 }
 
+.bespoke-backdrop.walter {
+  background-image: url('../media/walter.gif');
+  background-position: center;
+  background-size: cover;
+}
+
+.bespoke-slide[data-bespoke-backdrop="walter"],
 .bespoke-slide[data-bespoke-backdrop="whoa"] {
   color: $background;
+
+  hr {
+    background-color: $background;
+  }
 }

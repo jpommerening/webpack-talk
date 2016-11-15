@@ -4,6 +4,11 @@
 - source: ./intro.md
   data:
     bespoke-hash: intro
+- data:
+    bespoke-backdrop: walter
+- source: ./comparison.md
+  data:
+    bespoke-hash: comparison
 - source: ./architecture.md
   data:
     bespoke-hash: architecture

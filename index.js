@@ -14,6 +14,7 @@ import styles from './styles/main.scss';
 import slides from './slides';
 
 let deck;
+let slide = 0;
 
 function init(slides) {
    const container = document.querySelector( '#talk' );
@@ -30,6 +31,8 @@ function init(slides) {
       notes({ visible: false }),
       touch()
    ] );
+
+   deck.slide(slide);
 }
 
 slides('de', init);
@@ -38,14 +41,12 @@ if( module.hot ) {
    module.hot.accept('./slides', function() {
       const module = require('./slides');
       const slides = module.__esModule ? module.default : module;
-      const slide = deck.slide();
+
+      slide = deck.slide();
 
       const container = deck.parent;
       Array.from( container.childNodes ).forEach( element => container.removeChild( element ) );
 
-      slides('de', function(slides) {
-         init(slides);
-         deck.slide(slide);
-      });
+      slides('de', init);
    });
 }
