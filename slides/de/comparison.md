@@ -1,3 +1,8 @@
+---
+prev: <a rel="prev" href="intro.md">previous</a>
+next: <a rel="next" href="architecture.md">next</a>
+---
+
 <style type="text/css">
 .tool-logo {
   height: 2em;
