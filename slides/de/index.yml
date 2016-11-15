@@ -19,6 +19,9 @@
 - source: ./plugins-examples-1.md
   data:
     bespoke-hash: plugins-examples-1
+- source: ./plugins-examples-2.md
+  data:
+    bespoke-hash: plugins-examples-2
 - source: ./loaders.md
   data:
     bespoke-hash: loaders
@@ -31,6 +34,9 @@
 - source: ./loaders-examples-1.md
   data:
     bespoke-hash: loaders-examples-1
+- source: ./loaders-examples-2.md
+  data:
+    bespoke-hash: loaders-examples-2
 - data:
     bespoke-hash: whoa
     bespoke-backdrop: whoa

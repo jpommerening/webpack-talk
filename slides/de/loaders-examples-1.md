@@ -1,16 +1,26 @@
 ---
-prev: <a re="prev" href="loaders-examples.md">previous</a>
-next: <a re="prev" href="loaders-examples-1.md">next</a>
+prev: <a rel="prev" href="loaders-examples.md">previous</a>
+next: <a rel="next" href="loaders-examples-2.md">next</a>
 ---
 
 # Loaders
 
 ## `css-loader`
 
-gibt JS-Modul zurück, dass CSS als String exportiert
+Gibt JS-Modul zurück, das CSS als String exportiert <!--{p:data-bespoke-bullet=0}-->
 
-löst `@import` Anweisungen und `url()` Eigenschaften in `require()` Aufrufe auf
+Löst `@import` und `url()` Anweisungen in `require()` Aufrufe auf <!--{p:data-bespoke-bullet=1}-->
 
-alle referenzierten CSS-Dateien, Schriften und Grafik landen im Bundle!
+Alle referenzierten CSS-Dateien, Schriften und Grafiken landen im Bundle! <!--{p:data-bespoke-bullet=2}-->
 
-kann CSS-Module "namespacen" indem er alle Selektoren mit zufallsgeneriertem`class`-Selektor prefixed
+Kann CSS-Module mit zufallsgeneriertem `class`-Selektor "namespacen" <!--{p:data-bespoke-bullet=3}-->
+
+```js
+const styles = require('css!./path/to/styles.css');
+const element = document.createElement('style');
+
+element.type = 'text/css';
+element.styleSheet.cssText = styles;
+document.head.appendChild( element );
+```
+<!--{data-bespoke-bullet=4}-->

@@ -68,7 +68,7 @@ module.exports = {
       breaks: true,
       typographer: true,
       use: [
-         [ require( 'markdown-it-attrs' ) ],
+         [ require( 'markdown-it-decorate' ) ],
          [ require( 'markdown-it-front-matter' ), function(fm) {} ]
       ]
    }
