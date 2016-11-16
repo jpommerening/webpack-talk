@@ -1,6 +1,6 @@
 # webpack
 
-A small talk about `webpack`.
+A small talk about [webpack](https://webpack.github.io).
 
 Slides are in [`slides/de`](slides/de). Translation: later.
 
