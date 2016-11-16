@@ -3,21 +3,6 @@ prev: <a rel="prev" href="intro.md">previous</a>
 next: <a rel="next" href="architecture.md">next</a>
 ---
 
-<style type="text/css">
-<!--
-.tool-logo {
-  height: 2em;
-  width: 2em;
-  position: absolute;
-  left: 24%;
-}
-.tool-logo img {
-  max-width: 2em;
-  height: 2em;
-}
-//-->
-</style>
-
 # <span class="tool-logo"><img src="../../media/grunt.png" height="48" alt="grunt logo"/></span> [Grunt](http://gruntjs.com)
 <!--{h1:data-bespoke-bullet=1}-->
 

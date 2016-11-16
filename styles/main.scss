@@ -18,6 +18,18 @@ pre {
   font-size: 1.2em;
 }
 
+.tool-logo {
+  height: 2em;
+  width: 2em;
+  position: absolute;
+  left: 24%;
+}
+
+.tool-logo img {
+  max-width: 2em;
+  height: 2em;
+}
+
 h1.name {
   font-style: normal;
 }
