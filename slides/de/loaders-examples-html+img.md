@@ -18,3 +18,8 @@ Löst Bild- und Scriptquellen, sowies CSS Links in `require()` Aufrufe auf
 
 Optimiert Grafiken mit `optipng`, `jpegtran`, `gifsicle`, `svgo`
 <!--{p:data-bespoke-bullet=2}-->
+
+```
+<img src="./media/image.png"/>
+```
+<!--{data-bespoke-bullet=2}-->

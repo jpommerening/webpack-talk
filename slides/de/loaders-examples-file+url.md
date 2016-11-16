@@ -15,7 +15,7 @@ Speichern übergebenen Code in externe Datei und geben URL zurück
 
 ```css
 .icon-laxarjs {
-  background-image: url(./laxar-logo-tiny.png);
+  background-image: url(file!./laxar-logo-tiny.png);
 }
 ```
 <!--{data-bespoke-bullet=3}-->
