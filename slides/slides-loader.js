@@ -26,13 +26,6 @@ module.exports = function( code ) {
       '  } );',
       '  return section;',
       '} );',
-      'if( false ) {',
-      slides.filter( function( slide ) {
-         return !!(slide.source);
-      } ).map( function( slide, index ) {
-         return '  module.hot.accept(' + JSON.stringify( slide.source ) + ', function() { module.exports[' + index + '].innerHTML = require(' + JSON.stringify( slide.source ) + '); });';
-      } ).join( '\n' ),
-      '}'
    ].join( '\n' );
    return output;
 }
