@@ -23,7 +23,7 @@ function init(slides) {
 
    deck = bespoke.from( container, [
       backdrop(),
-      bullets(),
+      bullets('li, [data-bespoke-bullet]'),
       classes(),
       fullscreen(),
       hash(),

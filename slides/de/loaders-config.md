@@ -7,11 +7,9 @@ next: <a rel="next" href="dev-server">next</a>
 
 ## Konfiguration
 
-Loader können auch anhand von Datei-Patterns konfiguriert werden
-<!--{p:data-bespoke-bullet=1}-->
+- Loader können auch anhand von Datei-Patterns konfiguriert werden
 
-Konfigurierte Loader werden _vor_ Loadern in `require()` ausgeführt
-<!--{p:data-bespoke-bullet=2}-->
+- Konfigurierte Loader werden _vor_ Loadern in `require()` ausgeführt
 
 ```js
 /* webpack.config.js */
@@ -31,4 +29,4 @@ module.exports = {
   }
 };
 ```
-<!--{data-bespoke-bullet=3}-->
+<!--{data-bespoke-bullet}-->

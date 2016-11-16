@@ -7,13 +7,13 @@ next: <a rel="next" href="loaders-examples-file+url.md">next</a>
 
 ## [`css-loader`](https://github.com/webpack/css-loader)
 
-Gibt JS-Modul zurück, das CSS als String exportiert <!--{p:data-bespoke-bullet=0}-->
+- Gibt JS-Modul zurück, das CSS als String exportiert
 
-Löst `@import` und `url()` Anweisungen in `require()` Aufrufe auf <!--{p:data-bespoke-bullet=1}-->
+- Löst `@import` und `url()` Anweisungen in `require()` Aufrufe auf
 
-Alle referenzierten CSS-Dateien, Schriften und Grafiken landen im Bundle! <!--{p:data-bespoke-bullet=2}-->
+- Alle referenzierten CSS-Dateien, Schriften und Grafiken landen im Bundle!
 
-Kann CSS-Module mit zufallsgeneriertem `class`-Selektor "namespacen" <!--{p:data-bespoke-bullet=3}-->
+- Kann CSS-Module mit zufallsgeneriertem `class`-Selektor "namespacen"
 
 ```js
 const styles = require('css!./path/to/styles.css');
@@ -23,4 +23,4 @@ element.type = 'text/css';
 element.styleSheet.cssText = styles;
 document.head.appendChild( element );
 ```
-<!--{data-bespoke-bullet=4}-->
+<!--{data-bespoke-bullet}-->

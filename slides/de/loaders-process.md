@@ -9,27 +9,19 @@ next: <a rel="next" href="loaders-examples.md">next</a>
 const code = require( 'style!css!sass!./path/to/code.css' );
 ```
 
-`ResolverPlugin` sucht (im aktuellen Kontext) `./path/to/code.css`
-<!--{p:data-bespoke-bullet=1}-->
+- `ResolverPlugin` sucht (im aktuellen Kontext) `./path/to/code.css`
 
-`ResolverPlugin` (andere Instanz) sucht `style-loader`, `css-loader`, `sass-loader`
-<!--{p:data-bespoke-bullet=2}-->
+- `ResolverPlugin` (andere Instanz) sucht `style-loader`, `css-loader`, `sass-loader`
 
-Liest CSS-Datei ein, gibt "rohen" Inhalt an `sass-loader` Funktion
-<!--{p:data-bespoke-bullet=3}-->
+- Liest CSS-Datei ein, gibt "rohen" Inhalt an `sass-loader` Funktion
 
-`sass-loader` kompiliert zu CSS und gibt Ergebnis zurück
-<!--{p:data-bespoke-bullet=4}-->
+- `sass-loader` kompiliert zu CSS und gibt Ergebnis zurück
 
-Ergebnis wird an `css-loader` übergeben
-<!--{p:data-bespoke-bullet=5}-->
+- Ergebnis wird an `css-loader` übergeben
 
-`css-loader` ersetzt `url()` durch `require()` und gibt JS Code zurück
-<!--{p:data-bespoke-bullet=6}-->
+- `css-loader` ersetzt `url()` durch `require()` und gibt JS Code zurück
 
-Erbnis wird an `style-loader` übergeben
-<!--{p:data-bespoke-bullet=7}-->
+- Erbnis wird an `style-loader` übergeben
 
-`style-loader` generiert JS Modul, welches JS Code aus `css-loader` ausführt und Ergebnis in DOM injiziert
-<!--{p:data-bespoke-bullet=8}-->
+- `style-loader` generiert JS Modul, welches JS Code aus `css-loader` ausführt und Ergebnis in DOM injiziert
 

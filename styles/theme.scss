@@ -120,7 +120,7 @@ h1 strong {
 h1, h2, h3, p {
   padding-left: 20px;
   padding-right: 20px;
-  margin: 0.4em 0;
+  margin: .4em 0;
 }
 
 h1, h2, h3, p, dd, li, pre {
@@ -150,28 +150,14 @@ h3 {
   margin: 1.1em 0;
 }
 
-ul, ol {
-  padding: 0;
-  margin: 0;
-  text-align: left;
-}
-
 li {
-  margin: .4em .2em;
-  padding-left: 1.2em;
+  margin: .6em 0;
   font-style: normal;
   transform: translateX(-6px);
 }
 
 ul li {
   list-style: none;
-
-  &:before {
-    content: $emdash;
-    margin-left: -1.2em;
-    width: 1.2em;
-    display: inline-block;
-  }
 }
 
 hr {

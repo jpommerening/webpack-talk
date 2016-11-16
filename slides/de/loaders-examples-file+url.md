@@ -7,15 +7,13 @@ next: <a rel="next" href="loaders-examples-style.md">next</a>
 
 ## [`file-loader`](https://github.com/webpack/file-loader), [`url-loader`](https://github.com/webpack/url-loader)
 
-Speichern übergebenen Code in externe Datei und geben URL zurück
-<!--{p:data-bespoke-bullet=1}-->
+- Speichern übergebenen Code in externe Datei und geben URL zurück
 
-`url-loader` kann statt Dateien auch `data:`-URLs erzeugen
-<!--{p:data-bespoke-bullet=2}-->
+- `url-loader` kann statt Dateien auch `data:`-URLs erzeugen
 
 ```css
 .icon-laxarjs {
   background-image: url(file!./laxar-logo-tiny.png);
 }
 ```
-<!--{data-bespoke-bullet=3}-->
+<!--{data-bespoke-bullet}-->

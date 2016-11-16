@@ -7,15 +7,17 @@ next: <a rel="next" href="loaders.md">next</a>
 
 ## `ExtractTextPlugin`
 
-Kann Text/Code (z.B. CSS) während des Builds in externe Datei extrahieren <!--{data-bespoke-bullet=0}-->
+- Kann Text/Code (z.B. CSS) während des Builds in externe Datei extrahieren
 
-## `NgAnnotatePlugin` <!--{data-bespoke-bullet=1}-->
+## `NgAnnotatePlugin`
+<!--{data-bespoke-bullet}-->
 
-Schreibt ng-annotate Annotationen für sicheres Minifizieren (wäre sinnvoller als Loader und existiert auch als solcher) <!--{data-bespoke-bullet=1}-->
+- Schreibt ng-annotate Annotationen für sicheres Minifizieren (wäre sinnvoller als Loader und existiert auch als solcher)
 
-## `PrefetchPlugin` <!--{data-bespoke-bullet=2}-->
+## `PrefetchPlugin`
+<!--{data-bespoke-bullet}-->
 
-Kann Module in den Cache laden bevor sie importiert werden <!--{data-bespoke-bullet=2}-->
+- Kann Module in den Cache laden bevor sie importiert werden
 
 <aside>
 </aside>
