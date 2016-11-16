@@ -1,6 +1,6 @@
 ---
 prev: <a rel="prev" href="loaders.md">previous</a>
-next: <a rel="next" href="loaders-examples.md">next</a>
+next: <a rel="next" href="loaders-process.md">next</a>
 ---
 
 # Loaders

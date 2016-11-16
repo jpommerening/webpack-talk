@@ -1,5 +1,6 @@
 $background: #fffdfa;
-$orange: #f30;
+$red: #dd4a68;
+$orange: #e90;
 $foreground: #111;
 $serif: didot, times new roman, serif;
 $sans-serif: gill sans, helvetica, arial, arial, sans-serif;
@@ -7,12 +8,12 @@ $monospace: prestige elite std, consolas, courier new, monospace;
 $emdash: '\2014';
 
 $hljs-comment: slategray;
-$hljs-identifier: #e90;
+$hljs-identifier: $orange;
 $hljs-type: #905;
-$hljs-class: $orange;
+$hljs-class: #f30;
 $hljs-literal: #690;
 $hljs-meta: #999;
-$hljs-function: #dd4a68;
+$hljs-function: $red;
 $hljs-keyword: #07a;
 
 

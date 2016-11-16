@@ -6,6 +6,18 @@
   font-family: 'Averia Sans Libre';
 }
 
+pre {
+  min-height: 1em;
+}
+
+.caps {
+  text-transform: uppercase;
+}
+
+.large {
+  font-size: 1.2em;
+}
+
 h1.name {
   font-style: normal;
 }
@@ -34,6 +46,12 @@ img.plain {
   background-size: cover;
 }
 
+.bespoke-backdrop.intermission {
+  background-color: $foreground;
+  background-position: center;
+  background-size: cover;
+}
+
 .bespoke-backdrop.whoa {
   background-image: url('../media/whoa.gif');
   background-position: center;
@@ -41,6 +59,7 @@ img.plain {
 }
 
 .bespoke-slide[data-bespoke-backdrop="walter"],
+.bespoke-slide[data-bespoke-backdrop="intermission"],
 .bespoke-slide[data-bespoke-backdrop="whoa"] {
   color: $background;
 

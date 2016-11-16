@@ -58,9 +58,13 @@ module.exports = {
             test: /\.s[ac]ss$/,
             loader: 'style-loader!css-loader!sass-loader'
          },
+         {  // resolve refs in HTML
+            test: /\.(html|md)$/,
+            loader: 'html-loader'
+         },
          {  // markdown to HTML
             test: /\.md$/,
-            loader: 'html-loader!markdown-it'
+            loader: 'markdown-it'
          }
       ]
    },

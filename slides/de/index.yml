@@ -5,6 +5,7 @@
   data:
     bespoke-hash: intro
 - data:
+    bespoke-hash: intro-2
     bespoke-backdrop: walter
 - source: ./comparison.md
   data:
@@ -30,20 +31,42 @@
 - source: ./loaders.md
   data:
     bespoke-hash: loaders
-- data:
-    bespoke-backdrop: jesse
 - source: ./loaders-usage.md
   data:
     bespoke-hash: loaders-usage
+- data:
+    bespoke-hash: loaders-what
+    bespoke-backdrop: jesse
+- source: ./loaders-process.md
+  data:
+    bespoke-hash: loaders-process
 - source: ./loaders-examples.md
   data:
     bespoke-hash: loaders-examples
-- source: ./loaders-examples-1.md
+- source: ./loaders-examples-babel.md
   data:
-    bespoke-hash: loaders-examples-1
-- source: ./loaders-examples-2.md
+    bespoke-hash: loaders-examples-babel
+- source: ./loaders-examples-css.md
   data:
-    bespoke-hash: loaders-examples-2
+    bespoke-hash: loaders-examples-css
+- source: ./loaders-examples-file+url.md
+  data:
+    bespoke-hash: loaders-examples-file+url
+- source: ./loaders-examples-style.md
+  data:
+    bespoke-hash: loaders-examples-style
+- source: ./loaders-examples-html+img.md
+  data:
+    bespoke-hash: loaders-examples-html+img
+- source: ./loaders-config.md
+  data:
+    bespoke-hash: loaders-config
+- source: ./dev-server.md
+  data:
+    bespoke-hash: dev-server
+- source: ./demo/index.js
+  data:
+    bespoke-hash: demo
 - data:
     bespoke-hash: whoa
     bespoke-backdrop: whoa

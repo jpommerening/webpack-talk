@@ -44,6 +44,8 @@ if( module.hot ) {
 
       slide = deck.slide();
 
+      window.deck = deck;
+
       const container = deck.parent;
       Array.from( container.childNodes ).forEach( element => container.removeChild( element ) );
 

@@ -5,17 +5,16 @@ next: <a rel="next" href="loaders-usage.md">next</a>
 
 # Loaders
 
-Transformieren Code von einer Repräsentation oder Sprache in eine andere <!--{data-bespoke-bullet=0}-->
+## Funktional &amp; Komponierbar <!--{data-bespoke-bullet=1}-->
 
-Spätestens der letzte Loader in der Kette muss JavaScript erzeugen <!--{data-bespoke-bullet=1}-->
+_f<sub style="font-size: 0.8em">loader</sub>( code, sourceMap )_ → _( code', sourceMap' )_
+<!--{p:data-bespoke-bullet=1}-->
 
-## Funktional <!--{data-bespoke-bullet=2}-->
-
-_f( code, sourceMap )_ → _( code', sourceMap' )_
+Transformieren Code von einer Repräsentation oder Sprache in eine andere
 <!--{p:data-bespoke-bullet=2}-->
 
-
-## Komponierbar <!--{data-bespoke-bullet=3}-->
+Können verkettet werden
+<!--{p:data-bespoke-bullet=2}-->
 
 _f<sub style="font-size: 0.8em">style</sub>( f<sub style="font-size: 0.8em">css</sub>( f<sub style="font-size: 0.8em">sass</sub>( code, sourceMap ) ) )_ → _( code', sourceMap' )_
 <!--{p:data-bespoke-bullet=3}-->
@@ -25,6 +24,11 @@ bzw.:
 
 _(f<sub style="font-size: 0.8em">style</sub>_ ⋅ _f<sub style="font-size: 0.8em">css</sub>_ ⋅ _f<sub style="font-size: 0.8em">sass</sub>)( code, sourceMap )_ → _( code', sourceMap' )_
 <!--{p:data-bespoke-bullet=3}-->
+
+Spätestens der letzte Loader in der Kette muss JavaScript erzeugen
+<!--{p:data-bespoke-bullet=4}-->
+
+
 
 <aside>
 </aside>

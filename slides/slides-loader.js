@@ -26,7 +26,7 @@ module.exports = function( code ) {
       '  } );',
       '  return section;',
       '} );',
-      'if( module.hot ) {',
+      'if( false ) {',
       slides.filter( function( slide ) {
          return !!(slide.source);
       } ).map( function( slide, index ) {
