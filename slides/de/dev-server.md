@@ -1,9 +1,9 @@
 ---
 prev: <a rel="prev" href="loaders-config.md">previous</a>
-next: <a rel="next" href="demo.md">next</a>
+next: <a rel="next" href="demo/">next</a>
 ---
 
-# `webpack-dev-server`
+# [`webpack-dev-server`](https://github.com/webpack/webpack-dev-server)
 
 Kleiner HTTP-Server, der Module automatisch baut
 <!--{data-bespoke-bullet=1}-->

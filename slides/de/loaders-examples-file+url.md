@@ -5,7 +5,7 @@ next: <a rel="next" href="loaders-examples-style.md">next</a>
 
 # Loaders
 
-## `file-loader`, `url-loader`
+## [`file-loader`](https://github.com/webpack/file-loader), [`url-loader`](https://github.com/webpack/url-loader)
 
 Speichern übergebenen Code in externe Datei und geben URL zurück
 <!--{p:data-bespoke-bullet=1}-->

@@ -213,7 +213,11 @@ code {
 a {
   color: currentColor;
   text-decoration: none;
-  border-bottom: 1px solid currentColor;
+
+  &:hover {
+    color: $blue;
+    border-bottom: 1px solid currentColor;
+  }
 }
 
 .emphatic {

@@ -5,6 +5,6 @@ next: <a rel="next" href="loaders-examples-css.md">next</a>
 
 # Loaders
 
-## `babel-loader`
+## [`babel-loader`](https://github.com/babel/babel-loader)
 
 Kompiliert ES2015 mit Babel

@@ -5,7 +5,7 @@ next: <a rel="next" href="loaders-examples-html+img.md">next</a>
 
 # Loaders
 
-## `style-loader`
+## [`style-loader`](https://github.com/webpack/style-loader)
 
 Injiziert CSS-Modul in DOM
 <!--{p:data-bespoke-bullet=1}-->

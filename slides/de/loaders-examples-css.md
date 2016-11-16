@@ -5,7 +5,7 @@ next: <a rel="next" href="loaders-examples-file+url.md">next</a>
 
 # Loaders
 
-## `css-loader`
+## [`css-loader`](https://github.com/webpack/css-loader)
 
 Gibt JS-Modul zurück, das CSS als String exportiert <!--{p:data-bespoke-bullet=0}-->
 
