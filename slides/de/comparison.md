@@ -21,7 +21,7 @@ next: <a rel="next" href="architecture.md">next</a>
 **Module** und Plugins
 <!--{p:data-bespoke-bullet}-->
 
-# <span class="tool-logo"><img src="../../media/webpack.png" height="48" alt="webpack logo"/></span> [webpack](https://webpack.github.io)
+# <span class="tool-logo"><img src="../../media/webpack.png" height="48" alt="webpack logo"/></span> <span class="name">[webpack](https://webpack.github.io)</span>
 <!--{h1:data-bespoke-bullet}-->
 
 **Module** und Loader-Pipelines
