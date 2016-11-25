@@ -20,6 +20,7 @@
     "bespoke-touch": "^1.0.0",
     "bundle-loader": "^0.5.4",
     "css-loader": "^0.25.0",
+    "extract-loader": "^0.1.0",
     "file-loader": "^0.9.0",
     "highlight.js": "^9.8.0",
     "html-loader": "^0.4.4",

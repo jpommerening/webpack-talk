@@ -43,13 +43,19 @@ module.exports = {
             test: /\.(gif|jpe?g|png|svg)$/,
             loader: 'img-loader?progressive=true'
          },
-         {  // resolve CSS url()s and dependencies with the css loader
-            test: /\.css$/,
-            loader: 'style-loader!css-loader'
+         {  // resolve CSS url()s and dependencies with the css-loader
+            // and extract result for file-loader, and inject with style-loader
+            test: /\.s?css$/,
+            loaders: [
+               'style-loader/url',
+               'file-loader?name=assets/[sha1:hash:hex:6]-[name].css',
+               'extract-loader?publicPath=../&', // webpack removes trailing slash
+               'css-loader'
+            ]
          },
          {  // load scss files by precompiling with the sass-loader
-            test: /\.s[ac]ss$/,
-            loader: 'style-loader!css-loader!sass-loader'
+            test: /\.scss$/,
+            loader: 'sass-loader'
          },
          {  // resolve refs in HTML
             test: /\.(html|md)$/,
