@@ -2,7 +2,7 @@
 
 A small talk about [webpack](https://webpack.github.io).
 
-Slides are in [`slides/de`](slides/de). Translation: later.
+Slides are in [`slides`](slides) (english, german).
 
 To start locally, clone this repo and:
 

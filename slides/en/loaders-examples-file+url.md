@@ -7,12 +7,12 @@ next: <a rel="next" href="loaders-examples-style.md">next</a>
 
 ## [`file-loader`](https://github.com/webpack/file-loader), [`url-loader`](https://github.com/webpack/url-loader)
 
-- Speichern übergebenen Code in externe Datei und geben URL zurück
+- Store input in a file and return resolved URL
 
-- `url-loader` kann statt Dateien auch `data:`-URLs erzeugen
+- `url-loader` can return `data:`-URLs for files that are small than _x_ bytes
 
 ```css
-.icon-webpack {
+.icon-webpackjs {
   background-image: url(file!./webpack-logo-tiny.png);
 }
 ```
